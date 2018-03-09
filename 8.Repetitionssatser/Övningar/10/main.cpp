@@ -5,8 +5,8 @@ int main()
  
  char val;
  bool fortsatt= true;
- int behallning= 1000;
- int insattning, uttag;
+ double behallning= 1000;
+ double insattning, uttag;
  
  
 do 

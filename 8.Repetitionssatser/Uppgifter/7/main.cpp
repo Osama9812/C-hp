@@ -2,17 +2,47 @@
 using namespace std;
 int main()
 {
+ 
+ char val;
+ bool fortsatt= true;
+ int start= 0;
+ int okn, min;
+ 
+ 
+do 
+{
+    cout << "Meny " << endl;
+    cout << "1.Nollstall antalet passagerae  " << endl;
+    cout << "2.Oka antalet passagerare med en " << endl;
+    cout << "3.Minska antalet passagerare med en"<< endl;
+    cout << "4.Skriv ut antalet passagerare\n\n";
+ 
+	cout << "valja ditt val: ";
+	cin >> val;
+	
+	 
+	
+	switch (val)
+ 	{
+ 	  case '1': 
+	  start =  0; 
+	  break;
+	  case '2': 
+	  start = start + 1; 
+	  break;
+	  case '3': 
+	  start = start -1; 
+	  break;
+	  case '4': 
+	  cout << "antal passagerare ar " << start <<endl; 
+	  default:
+	  	cout << "felinmatning.\n\n";
+    }
+	 
+
+ }
+ 
+ while (fortsatt);
   
-  int befolkning = 100;
-  int er= 0;
-  
-  while (befolkning < 2000000) // fungerar med samma princip som if satsen, då gäller att om villkor är sant, då blir svaret följande.
-                               // skillnade är att while, repetrear villkoren tills det blir mer än 2 miljoner, men if satsen tillampa 
-							   // villkoren gång om det är sant.
-  {
-  	befolkning = befolkning * 1.05;
-  	er++; // den är villkoren som tillämpa när befolkning är mindre än två miljöner.
-  }
- cout << "Efter " << er << "or ar befoklning " << befolkning <<endl; 
   return 0;
 }

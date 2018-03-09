@@ -8,8 +8,7 @@ int main() {
 	
 	double a;
 	cin>> a;
-	cout << (int)a << endl;
-    cout <<  setprecision << a << endl;
+    cout <<  setprecision(2) << a << endl;
 		
 	return 0;
 }

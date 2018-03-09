@@ -4,11 +4,11 @@ using namespace std;
 int main()
 {
 
+int falt[]= {1,2,3,4,5};
 
-
-for ( n = 1 ; n<= 5 ; n++ )
+for ( int n = 4 ; n>=0 ; n-- )
 {
-cout<< n << ' ';
+cout<< falt[n]<< ' ';
 }
 return 0;
 } 
