@@ -1,0 +1,42 @@
+*{
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  background-color: red;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:100%;
+  max-height: 100%;
+  background-color:green ;
+  flex-direction: row;
+  margin:0;
+  border-bottom: inset;
+
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  flex-direction: row;
+  margin-left:auto;
+
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: green;
+  flex-direction: row;
+  margin-right:auto;
+  border-style: dotted;
+}

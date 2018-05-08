@@ -1,0 +1,97 @@
+1 @font-face {
+2 font-family: 'Merriweather';
+3 font-weight: 300;
+4 font-style: normal;
+5 src: url('fonts/Merriweather/Merriweather-Light.ttf');
+6 }
+7 @font-face {
+8 font-family: 'Merriweather';
+9 font-weight: 300;
+10 font-style: italic;
+11 src: url('fonts/Merriweather/Merriweather-LightItalic.ttf');
+12 }
+13 @font-face {
+14 font-family: 'Merriweather';
+15 font-weight: 400;
+16 font-style: normal;
+17 src: url('fonts/Merriweather/Merriweather-Regular.ttf');
+18 }
+19 @font-face {
+20 font-family: 'Merriweather';
+21 font-weight: 400;
+22 font-style: italic;
+23 src: url('fonts/Merriweather/Merriweather-Italic.ttf');
+24 }
+25 @font-face {
+26 font-family: 'Merriweather';
+27 font-weight: 700;
+28 font-style: normal;
+29 src: url('fonts/Merriweather/Merriweather-Bold.ttf');
+30 }
+31 @font-face {
+32 font-family: 'Merriweather';
+33 font-weight: 700;
+34 font-style: italic;
+35 src: url('fonts/Merriweather/Merriweather-BoldItalic.ttf');
+36 }
+37 @font-face {
+38 font-family: 'Merriweather';
+39 font-weight: 900;
+40 font-style: normal;
+41 src: url('fonts/Merriweather/Merriweather-Black.ttf');
+42 }
+43 @font-face {
+44 font-family: 'Merriweather';
+45 font-weight: 900;
+46 font-style: italic;
+47 src: url('fonts/Merriweather/Merriweather-BlackItalic.ttf');
+48 }
+49 @font-face {
+50 font-family: 'Merriweather+Sans';
+51 font-weight: 300;
+52 font-style: normal;
+53 src: url('fonts/Merriweather_Sans/MerriweatherSans-Light.ttf');
+54 }
+55 @font-face {
+56 font-family: 'Merriweather+Sans';
+57 font-weight: 300;
+58 font-style: italic;
+59 src: url('fonts/Merriweather_Sans/MerriweatherSans-LightItalic.ttf');
+60 }
+61 @font-face {
+62 font-family: 'Merriweather+Sans';
+63 font-weight: 400;
+64 font-style: normal;
+65 src: url('fonts/Merriweather_Sans/MerriweatherSans-Regular.ttf');
+66 }
+67 @font-face {
+68 font-family: 'Merriweather+Sans';
+69 font-weight: 400;
+70 font-style: italic;
+71 src: url('fonts/Merriweather_Sans/MerriweatherSans-RegularItalic.ttf');
+72 }
+73 @font-face {
+74 font-family: 'Merriweather+Sans';
+75 font-weight: 700;
+76 font-style: normal;
+77 src: url('fonts/Merriweather_Sans/MerriweatherSans-Bold.ttf');
+78 }
+79 @font-face {
+80 font-family: 'Merriweather+Sans';
+81 font-weight: 700;
+82 font-style: italic;
+83 src: url('fonts/Merriweather_Sans/MerriweatherSans-BoldItalic.ttf');
+84 }
+85 @font-face {
+86 font-family: 'Merriweather+Sans';
+87 font-weight: 800;
+88 font-style: normal;
+89 src: url('fonts/Merriweather_Sans/MerriweatherSans-ExtraBold.ttf');
+90 }
+91 @font-face {
+92 font-family: 'Merriweather+Sans';
+93 font-weight: 800;
+94 font-style: italic;
+95 src: url('fonts/Merriweather_Sans/MerriweatherSans-ExtraBoldItalic.ttf');
+96 }
+97

@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 600px;
+}
+
+.bild {
+    width: auto;
+    min-height: 600px;
+    background-size:cover;
+}
+
+.test {
+  display: flex;
+  flex-grow: 2;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  opacity: 0.6;
+  background-color: black;
+  color:white;
+  font-size: 15px;
+}
+
+/* --------------- bild1 ------------- */
+
+.bild1{
+  background-image: url("1280px-Palmyra_03.jpg");
+}
+
+/* --------------- bild2 ------------- */
+
+.bild2 {
+  background-image: url("Bosra,_theatre.jpg");
+}
+
+/* --------------- bild3 ------------- */
+
+.bild3 {
+  background-image: url("Al-Hamidiyah_Souq_02.jpg");
+}
+
+/* --------------- bild4 ------------- */
+
+.bild4 {
+  background-image: url("1280px-Umayyad_Mosque,_Damascus.jpg");
+}
+
+
+/* --------------- bild5 ------------- */
+
+.bild5 {
+  background-image: url("Citadel_of_Aleppo.jpg");
+}

@@ -1,0 +1,122 @@
+body{
+ background-color:
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------------------Menu----------------------*/
+.flex-rad{
+  display: flex;
+  justify-content: flex-end;
+  background-color:green;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.6;
+
+  }
+
+.logo {
+    background-color: red;
+    color: blue;
+    position: absolute;
+    left:0px;
+  }
+
+
+.over{
+  display: block;
+  color: Red;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.5;
+  border-left-style: ridge;
+  }
+
+.under{
+  display: none;
+  }
+
+.over:hover{
+  background-color: white;
+}
+
+.over:hover .under{
+  display: flex;
+  background-color: black;
+  color:white;
+  border-radius: 0.4px;
+  border-style: groove;
+}
+
+/*------------------ News ----------------------*/
+
+.news{
+   margin-top: 50px;
+   position: absolute;
+   left: 0;
+   top: 20%;
+   width: 100px;
+   height: 250px;
+   display: block;
+   border: dashed;
+   border-color: white;
+   background-color: red;
+   color: white;
+}
+
+h1{
+    font-family: cursive;
+}
+
+.para{
+  font-family: monospace;
+  color: black;
+  /*fonter från google fungerar inte*/
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+ul {
+  display: block;
+  font-style: italic;
+  padding-left: 0;
+}
+
+.donate{
+  margin-top: 50px;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 100px;
+  height: 250px;
+  display: block;
+  border: dashed;
+  border-color: white;
+  background-color: red;
+  color: white;
+}
+
+/*------------------ contact ----------------------*/
+
+.contact {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color:black;
+  color: red;
+  width: 100%;
+  height: 50px;
+}
+
+/*------------------ End ----------------------*/

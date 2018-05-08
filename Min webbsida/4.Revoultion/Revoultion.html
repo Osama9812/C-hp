@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>ٍSyria in General</title>
+    <meta charset="utf-8">
+    <link href="stilmall.css" rel="stylesheet" type="text/css">
+    <link href="../fonts.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href=""https://fonts.googleapis.com/css?family=Rammetto+One"">
+</head>
+
+<body>
+
+<!------------------Menu---------------------->
+
+  <div class="flex-rad">
+    <div class = "logo"> Syria in General </div>
+        <div class="meny">
+
+           <div class="over">
+           General infromation
+           </div>
+
+           <div class="over">
+           cities
+           <div class="under">
+           Damascus
+           </div>
+           <div class="under">
+           Aleppo
+           </div>
+           <div class="under">
+           AL Suwayda
+           </div>
+           <div class="under">
+           Other cities
+           </div>
+           </div>
+
+           <div class="over">
+           More
+           <div class="under">
+           Historical places
+           </div>
+           <div class="under">
+           Revolution
+           </div>
+           </div>
+
+       </div>
+
+  </div>
+
+<!-----------------------slide show------------------------>
+
+<section>
+  <img class="mySlides" src="1280x720-data_out_189_68435539-sunset-in-summer.jpg"
+  style="width:100%">
+  <img class="mySlides" src="7409_background_day.jpg"
+  style="width:100%">
+  <img class="mySlides" src="img_band_chicago.jpg"
+  style="width:100%">
+</section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+<!-----------------------slide show------------------------>
+
+
+
+</body>
+
+</html>
